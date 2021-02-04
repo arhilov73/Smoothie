@@ -1,0 +1,379 @@
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Waiting for the Sunrise', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+img{
+    display: block;
+}
+.my_container{
+    max-width: 1920px;
+    margin: auto;
+}
+.hidden_elements{
+    display: none;
+}
+
+
+/* NAVBAR */
+.navbar {
+    padding: 0 !important;
+}
+.my_bg-light {
+    background-color: white !important;
+}
+.nav-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #433840;
+    padding: 40px 0 0 0 !important;
+}
+.nav-item + .nav-item{
+    margin-left: 20px !important;
+}
+.my_nav-img img{
+    width: 224px;
+    height: 73px;
+    margin: 15px 154px 12px 113px;
+}
+.my_pink{
+    color: #FEA3AC !important;
+}
+.navbar-nav{
+    margin: auto;
+}
+/* //NAVBAR */
+
+
+/* SLIDER */
+.my_slider {
+    position: relative;
+    margin: 0 50px;
+}
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+/* //SLIDER */
+
+.my_phrase-on-slider{
+    position: absolute;
+    top: 50%;
+    left: 40.5%;
+    width: 347px;
+
+    height: 50px;
+    z-index: 299;
+
+    font-family: Waiting for the Sunrise;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.67;
+    color: #FFFFFF;
+}
+
+
+/* ABOUT INTRO */
+.my_about-intro {
+    margin: 70px auto;
+}
+.row {
+    justify-content: center;
+}
+.col-sm {
+    padding: 0 !important;
+}
+.my_col_1 {
+    max-width: 332px;
+}
+.my_col_2 {
+    max-width: 467px;
+}
+.my_fresh{
+    margin: 60px 40px 0 47px;
+}
+.my_col_3 {
+    max-width: 332px;
+}
+.my_fresh_text + .my_fresh_text {
+    margin-top: 80px;
+}
+.my_fresh_text-title {
+    font-size: 30px;
+    line-height: 1.23;
+    color: #433840;
+    margin-bottom: 12px;
+}
+.my_fresh_text-main {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #9A9A9A;
+    margin: 0;
+}
+/* //ABOUT INTRO */
+
+
+/* STATS */
+.my_stats {
+    width: 100%;
+    height: 620px;
+    background-image:url(../img/Stats/Stats.svg);
+}
+.my_stats_text {
+    height: 620px;
+    width: 190px;
+}
+.my_stats_text p{
+    text-align: center;
+}
+.my_stats_fruit-number {
+    font-family: Waiting for the Sunrise;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 1.65;
+    color: #DFEEB6;
+    margin: 0;
+}
+.my_stats_fruit-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #FFFFFF;
+}
+.my_col_stats-1{
+    max-width: 190px;
+}
+.my_col_stats-2{
+    max-width: 190px;
+}
+.my_col_stats-3{
+    max-width: 190px;
+}
+.my_col_stats-4{
+    max-width: 190px;
+}
+.my_col_stats-1 img{
+    margin: 188px 0 0 40px;
+}
+.my_col_stats-2 img{
+    margin: 188px 0 0 40px;
+}
+.my_col_stats-3 img{
+    margin: 195px 0 0 40px;
+}
+.my_col_stats-4 img{
+    margin: 203px 0 0 40px;
+}
+.my_col_stats-1 p.my_stats_fruit-number{
+    margin-bottom: 5px;
+}
+.my_col_stats-3 p.my_stats_fruit-number{
+    margin-bottom: 8px;
+}
+.my_col_stats_margin + .my_col_stats_margin{
+    margin-left: 125px;
+}
+/* //STATS */
+
+
+/* TEAM */
+.my_team {
+    width: 1144px;
+    height: 963px;
+    margin: auto;
+    margin-top: 57px;
+}
+.my_team_text {
+    width: 309px;
+    margin: auto;
+    margin-top: 57px;
+    margin-bottom: 60px;
+}
+.my_team_text-h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.24;
+    color: #433840;
+}
+.my_team_text-p {
+    margin: 0;
+    text-align: center;
+    font-family: Waiting for the Sunrise;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+    color: #F7A1A8;
+}
+.col-sm-3 {
+    width: 558px;
+    height: 380px;
+}
+.my_team_col-1{
+    background-image: url(../img/DreamTeam/Members/member\ 1.jpg);
+}
+.my_team_col-2{
+    background-image: url(../img/DreamTeam/Members/member\ 2.jpg);
+    margin-left: 24px;
+}
+.my_team_col-3{
+    width: 559px;
+    background-image: url(../img/DreamTeam/Members/member\ 3.jpg);
+    margin-top: 40px;
+}
+.my_team_col-4{
+    width: 560px;
+    background-image: url(../img/DreamTeam/Members/member\ 4.jpg);
+    margin-top: 40px;
+    margin-left: 24px;
+}
+.col-sm-3 img{
+    width: 100%;
+    height: 100%;
+}
+.my_member_card{
+    width: 194px;
+    margin-top: 84px;
+    margin-left: 337px;
+}
+.my_membername {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.23;
+    color: #FFFFFF;
+    margin: 0;
+}
+.my_under_name {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #433840;
+    margin-bottom: 14px;
+}
+.my_member_description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #433840;
+}
+.my_cards_icons a{
+    text-decoration: none;
+    color: #433840;
+}
+.my_icons_links + .my_icons_links{
+    margin-left: 14px;
+}
+.my_member_card-bottom{
+    width: 194px;
+    margin-top: 84px;
+    margin-left: 22px;
+}
+.my_member-bottom{
+    text-align: right;
+}
+/* //TEAM */
+
+
+/* FOOTER */
+.my_footer {
+    max-width: 1920px;
+    height: 499px;
+    margin: auto;
+    margin-top: 150px;
+}
+.my_footer-container {
+    max-width: 1920px;
+    height: 439px;
+    background-image: url(../img/Footer/bg.jpg);
+}
+.align-items-center {
+    align-items: center;
+}
+.col {
+    padding: 0;
+    width: 348px !important;
+    height: 317px !important;
+    flex:none;
+    margin-top: 62px;
+}
+.col + .col{
+    margin-left: 50px;
+}
+.my_membername {
+    margin-bottom: 30px;
+}
+.my_footer-text{
+    font-size: 20px;
+    line-height: 1.75;
+    color: #FFFFFF;
+}
+.my_hours{
+    color: #DFEEB6;
+}
+.my_phone_number {
+    font-weight: 700;
+}
+.my_footer-text a{
+    color: inherit;
+}
+.my_map {
+    text-decoration: none;
+}
+.my_insta_feed .container{
+    padding: 0 !important;
+}
+.my_insta_feed .container .row{
+    margin: 0;
+    justify-content: start;
+}
+.my_col_instafeed{
+    padding: 0;
+    width: 97px;
+    height: 97px;
+    margin-top: 26px;
+}
+.my_col_instafeed + .my_col_instafeed{
+    margin-left: 26px;
+}
+.my_col_instafeed-mt0{
+    margin-top: 0 !important;
+}
+
+
+
+.my_insta_feed-container {
+    background-color: #433840;
+    max-width: 1920px;
+    height: 60px;
+}
+.my_underfooter_col-1 p{
+    padding: 0 !important;
+    margin: 13px 0 0 392px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 2.33;
+    color: #FFFFFF;
+}
+.my_underfooter_col-2 p a{
+    color: #FFFFFF;
+}
+.my_underfooter_col-2 p{
+    margin: 15px 0 0 450px !important;
+}
+.my_insta_feed-container{
+    padding: 0;
+}
+/* //FOOTER */
